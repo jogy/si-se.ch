@@ -1,10 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
+<head>
+    <meta charset="utf-8">
     <title>SI-SE 2015</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/my.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sise.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-<h1>Coming soon...</h1>
+
+<div id="wrap">
+    <div id="container">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SI-SE 2015</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href=".">Einstieg</a></li>
+                    <li><a href="program.html">Fachtagung</a></li>
+                    <li><a href="tutorials.html">Tutorien</a></li>
+                    <li><a href="speakers.html">Referenten</a></li>
+                    <li><a href="registration.html">Anmeldung</a></li>
+                    <li><a href="venue.html">Infos</a></li>
+                    <li><a href="http://www.s-i.ch/fachgruppen-und-sektionen/si-se/" target="_blank"><i
+                            class="glyphicon glyphicon-share-alt"></i> SI-SE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+
+        <div class="container" style="padding-top: 60px; padding-bottom: 10px;">
+            <div class="hero-unit">
+                <img class="img-rounded pull-right hidden-xs" src="img/siseLogo2.png" width="200">
+
+                <div>
+                    <p style="margin-bottom: 0;">20. SI-SE Fachtagung</p>
+
+                    <h1 style="margin: 10px 0;">Next Generation Web &amp; Mobile UIs</h1>
+
+                    <p>7./8. Mai 2015, HSR Hochschule für Technik, Rapperswil</p>
+
+<!--
+                    <p><a class="btn btn-large btn-info" href="../2015">Aktuelle Tagung 2015 &raquo;</a></p>
+                -->
+                </div>
+            </div>
+        </div>
+
+        <!--<div id="push"></div>-->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            	<!--
+                <div class="alert alert-danger">Diese Veranstaltung liegt in der Vergangenheit.</div>
+            -->
+
+                <h2>Willkommen</h2>
+
+                <!--<div class="alert alert-info"><strong>Note: </strong>the tutorials on Thursday and most of the
+                    presentations on Friday will be in English.
+                </div>-->
+
+                <p>Mit der zunehmenden Bedeutung des mobilen und jederzeitigen Zugriffs auf IT-Systeme müssen ansprechende und einfach zu bedienende Oberflächen entwickelt werden, die auf allen Endgeräten (Smartphone, Tablet, Laptop, Desktop) in allen Auflösungen funktionieren und moderne Eingabearten wie Touch, Voice und Gestures unterstützen. Weiter muss auch mehr Logik auf den Client verlagert werden, um die Netzabhängigkeit zu reduzieren und die Benutzer-freundlichkeit zu erhöhen. 
+                Die Fachtagung gibt einen Überblick über moderne Frameworks zur Erstellung von Benutzerschnittstellen und führt im Rahmen von Tutorials in die Programmierung von JavaScript exemplarisch und praktisch ein.
+</p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Fachtagung</h2>
+
+                        <h4>Freitag, 8. Mai 2015</h4>
+
+                        <p>Wie in den bisherigen Jahren findet die eigentliche Fachtagung am Freitag statt.</p>
+
+                        <p><a class="btn btn-default" href="program.html">Details anzeigen &raquo;</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Tutorials</h2>
+
+                        <h4>Donnerstag, 7. Mai 2015</h4>
+
+                        <p>Am Donnerstag offerieren wir zwei Halbtagstutorien zum Thema.</p>
+
+                        <p><a class="btn btn-default" href="tutorials.html">Details anzeigen &raquo;</a></p>
+
+                    </div>
+                </div>
+
+                <hr />
+                <h4>Sponsoren:</h4>
+                <p>
+                	<a href="http://www.zuehlke.com/">
+                    	<img src="img/zuehlke.jpg" title="Zühlke Engineering AG" width="100">
+                	</a>
+                	<a href="http://www.hsr.ch/">
+                    	<img src="img/hsr.jpg" title="HSR IFS & MAS" width="200">
+                	</a>
+                </p>
+             </div>
+
+            <!--
+            <div class="col-md-4 text-right">
+                <a class="twitter-timeline" href="https://twitter.com/search?q=%23sise2014"
+                   data-widget-id="422806410078859264">Tweets about "#sise2014"</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
+            </div>
+            -->
+
+        </div>
+
+        <div id="push"></div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <p class="muted credit" style="margin: 20px 0;">Kontakt: <a href="info[at]si-se[dot]ch"></a></p>
+    </div>
+</div>
 </body>
 </html>
