@@ -108,11 +108,6 @@
                     <small>** Nur für Vollzeitstudenten. Ein Nachweis wird bei der Registrierung vor Ort verlangt.
                     </small>
                 </p>
-                <h2>Anmeldungsprozedere</h2>
-                <p>Bitte melden Sie sich <a href="http://goo.gl/forms/zGquZVWRBT" target="_blank">online</a> an, indem sie das Anmeldeformular ausfüllen und speichern.</p>
-                <p>Bei Fragen melden Sie sich bitte bei <a href="mailto://registration@si-se.ch">registration@si-se.ch</a></p>
-             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
                 <h2>Bezahlung</h2>
                 <p>Die Bezahlung muss vorgängig erfolgen. Die Anmeldung gilt erst mit dem Eingang der Zahlung. </p>
                 <p>Bitte bezahlen Sie mit Vermerk "SISE Fachtagung" per Bank- oder Postüberweisung (bevorzugt) auf das Vereinskonto der </p>
@@ -122,6 +117,11 @@
                 <p>Eine weitere Alternative ist die Bezahlung per Paypal auf info@si-se.ch.</p>
                 <p>Zahlungen per Kreditkarte können ebenfalls per <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RZSKXFNDAV9XE">Paypal Konto</a> gemacht werden.
                 </p>
+             </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h2>Anmeldungsprozedere</h2>
+                <p>Bitte melden Sie sich <a href="http://goo.gl/forms/zGquZVWRBT" target="_blank">online</a> an, indem sie das Anmeldeformular ausfüllen und speichern.</p>
+                <p>Bei Fragen melden Sie sich bitte bei <a href="mailto://registration@si-se.ch">registration@si-se.ch</a></p>
                 <h2>Bedingungen</h2>
                     <p> Der Tagungspreis beinhaltet
                         Pausenerfrischungen und elektronischen Zugang zu den Tagungsunterlagen.</p>
@@ -143,78 +143,13 @@
 
             </div>
         </div>
-                    <!--
-                        <hr />
-                <h4>Sponsoren:</h4>
-                <p>todo 
-                    <a href="http://www.zuehlke.com/">
-                        <img src="img/zuehlke.jpg" title="Zühlke Engineering AG" width="100">
-                    </a>
-                -->
-               </p>
-
+	<hr />
+	<h4>Sponsoren:</h4>
+	<a href="http://www.mobi.ch/" target="_blank">
+	<img src="img/mobi_logo.png" title="die Mobiliar">
+	</a>                    
     </div>
     <div id="push"></div>
-
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/jquery.validate.messages.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#registration-form').validate({
-                rules: {
-                    Anrede: "required",
-                    Vorname: {
-                        minlength: 2,
-                        required: true
-                    },
-                    Nachname: {
-                        minlength: 2,
-                        required: true
-                    },
-                    Strasse: {
-                        minlength: 2,
-                        required: true
-                    },
-                    PLZ: {
-                        minlength: 2,
-                        required: true
-                    },
-                    Ort: {
-                        minlength: 2,
-                        required: true
-                    },
-                    'E-Mail': {
-                        required: true,
-                        email: true
-                    },
-                    Bezahlung: "required",
-                    Akzeptiert: "required"
-                },
-                errorElement: "span",
-                errorClass: "help-block",
-                errorPlacement: function (error, element) {
-                    error.appendTo(element.parents(".controls:last"));
-                },
-                highlight: function (label) {
-                    $(label).closest('.form-group').addClass('has-error').removeClass('has-success');
-                },
-                success: function (label) {
-                    $(label).closest('.form-group').addClass('has-success').removeClass('has-error');
-                }
-            });
-        });
-        $(function () {
-            var resetForms = function () {
-                $('form').each(function () {
-                    this.reset();
-                });
-            };
-
-            resetForms();
-
-            window.onbeforeunload = resetForms;
-        });
-    </script>
 </div>
 
 <div id="footer">
