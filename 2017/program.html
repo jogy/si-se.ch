@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SI-SE 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/my.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sise.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <div id="container">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="index.html">SI-SE 2017</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="program.html">Fachtagung</a></li>
+                        <li><a href="tutorials.html">Tutorial</a></li>
+                        <li><a href="speakers.html">Referenten</a></li>
+                        <li><a href="registration.html">Anmeldung</a></li>
+                        <li><a href="venue.html">Infos</a></li>
+                        <li><a href="archiv.html">Archiv</a></li>
+                        <li><a href="http://www.s-i.ch/fachgruppen-und-sektionen/si-se/" target="_blank"><i
+                            class="glyphicon glyphicon-share-alt"></i> SI-SE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container" style="padding-top: 60px; padding-bottom: 10px;">
+            <!--
+        <div class="alert alert-danger">Diese Veranstaltung liegt in der Vergangenheit.</div>
+-->
+
+            <!--
+        <a class="btn btn-info pull-right" href="../presentations">Folien &raquo;</a>
+        <a class="btn btn-danger pull-right" href="flyer.pdf" target="_blank"> Flyer <img
+                src="img/pdf_icon_small.png"></a>
+        -->
+
+            <h2>Fachtagung</h2>
+
+            <h4>Dienstag, 20. Juni 2017</h4>
+            <hr/>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>08:30</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Eintreffen, Registrierung</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>09:00</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Begrüssung</h4>
+
+                    <p>
+                        <em>Bruno Kaiser, Präsident SI-SE</em><br />
+                        <em>Ivo Ruckstuhl, Organisator Fachtagung</em>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" id="koehler">
+                <div class="col-md-1">
+                    <h4>09:15</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">Developing Artificial Intelligence Systems</h4>
+                    <p>
+                        <em><a href="speakers.html#koehler">Prof. Jana Koehler</a>, Hochschule Luzern</em>
+                    </p>
+                    <p>ABSTRACT</p>
+                </div>
+            </div>
+
+            <div class="row" id="krummenacher">
+                <div class="col-md-1">
+                    <h4>10:00</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">Uncovering the Unreasonable Success of Deep Learning</h4>
+                    <p><em><a href="speakers.html#krummenacher">Gabriel Krummenacher</a>, Advanced Data Scientist, Zühlke</em></p>
+                    <p>The renaissance of artificial neural networks has led to breakthrough results in different fields of
+                        machine learning: from detecting objects in images and videos to winning poker against humans, the
+                        success of deep learning spans a broad range of domains. But how do modern neural networks work?
+                        Why are they so successful? What can we expect in the future? In this talk, we will look behind the
+                        scenes of deep learning to answer these questions.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>10:45</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Kaffeepause</h4>
+                </div>
+            </div>
+
+            <div class="row" id="deep">
+                <div class="col-md-1">
+                    <h4>11:15</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">Variational AutoEncoder Generative Adversarial Networks</h4>
+                    <p><em><a href="speakers.html#deep">Gilbert Francois Duivesteijn</a>, Deep Impact</em></p>
+                    <p>In recent years, supervised learning with Convolutional Neural Networks (CNN) has seen huge adoption
+                        in computer vision applications. Comparatively, unsupervised learning with CNNs has received less
+                        attention. In 2014 Ian Goodfellow et al introduced a new framework for estimating generative models
+                        via adversarial networks, in which two models are trained simultaneously. The Generator is trying
+                        to create things, which look like the training data. The discriminator has to guess whether what
+                        is given is a real training example or the output of the Generator. This type of framework is notorious
+                        hard to train. During training, the Generator and Discriminator have to strike a balance so that
+                        they both get stronger. If the balance is disturbed, the entire network can end up learning something
+                        not useful at all. By combining a Variational Auto-Encoder with a Generative Adversarial Network
+                        we can use learned feature representations in the GAN discriminator as basis for the VAE reconstruction
+                        objective. It speeds up the training process dramatically and results in a better output. Moreover,
+                        the method learns an embedding in which high-level abstract visual features (e.g. wearing glasses,
+                        smiling, etc.) can be modified using simple arithmetic, which will be demonstrated during the presentation.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>12:00</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Generalversammlung 2017 SI-SE</h4>
+                    <p><em>Bruno Kaiser, Präsident SI-SE</em></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>12:30</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Mittagspause</h4>
+                </div>
+            </div>
+
+            <div class="row" id="wise">
+                <div class="col-md-1">
+                    <h4>13:30</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">Conversational Agents and ChatBots</h4>
+                    <p><em><a href="speakers.html#wise">Mike Wise</a>, Incubation Architect, Microsoft</em></p>
+                    <p>There has been a huge surge in interest in both ChatBots and AI recently, and one could be forgiven if
+                        they expect human-level intelligent chatbots to suddenly appear around us. In fact one could argue
+                        that the marketing we are seeing for Cortana, Watson, Sira, and Alexa all make these claims implicitly.
+                        But that is marketing, what is really behind it all? In this talk we will discuss the actual capabilities
+                        that ML can give to ChatBots today. Additionally we will also talk about what is missing for true
+                        human-level capabilities, and how chatbot-related ML and AI research could lead there.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>14:15</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Kaffeepause</h4>
+                </div>
+            </div>
+
+            <div class="row" id="berger">
+                <div class="col-md-1">
+                    <h4>14:45</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">Fraud Detection</h4>
+
+                    <p><em><a href="speakers.html#berger">Adrian Berger</a>, Managing Partner Finance Solutions, Ergon</em></p>
+
+                    <p>ABSTRACT</p>
+                </div>
+            </div>
+
+            <div class="row" id="reischach">
+                <div class="col-md-1">
+                    <h4>15:15</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">Artificial Intelligence as a Driver for Digitalization</h4>
+
+                    <p><em><a href="speakers.html#reischach">Dr. Felix von Reischach</a>, Head of Artificial Intelligence and Machine Learning Group, Swisscom</em></p>
+
+                    <p>Swisscom has the mission to support its enterprise customers in their digitalization journey. In this
+                        endeavour, Artificial Intelligence plays a central role. The new paradigms of programming, enabling
+                        computers to act like humans provides a vast potential to businesses of all sorts. Swisscom is on
+                        top of this trend and has built a competence center consisting of world-class product people, engineers,
+                        designers, and last but not least, data scientists. In co-innovation with the largest Swiss enterprises,
+                        the group identifies customer pains that require automatic understanding of human language and unstructured
+                        text and solves them using the latest technology. The talk gives an overview of why Artificial Intelligence
+                        has become so important and presents some of the lighthouse projects Swisscom is working on.</p>
+                </div>
+            </div>
+            <div class="row" id="koller">
+                <div class="col-md-1">
+                    <h4>15:45</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4 class="anchor-fix">AlphaGo</h4>
+
+                    <p><em><a href="speakers.html#koller">Thomas Koller</a>, FIRMA, TITLE</em></p>
+
+                    <p>ABSTRACT</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>16:15</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Schlussdiskussion</h4>
+                    <p>
+                        <em>Bruno Kaiser, Vorstand SI-SE</em><br />
+                        <em>Ivo Ruckstuhl, Organisator Fachtagung</em>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1">
+                    <h4>16:30</h4>
+                </div>
+                <div class="col-md-11">
+                    <h4>Ende der Tagung</h4>
+                </div>
+            </div>
+        </div>
+<!--
+        <div>
+            <h4>Sponsoren:</h4>
+            <a href="#" target="_blank">
+                <img src="img/logo.png" title="FIRMA">
+            </a>    
+        </div>
+--> 
+        <div id="footer">
+            <div class="container">
+                <p class="muted credit" style="margin: 20px 0;">Kontakt:
+                    <a href="info[at]si-se[dot]ch"></a>, <a href="https://twitter.com/sise_ch">@sise_ch</a> / #sise2017</p>
+            </div>
+        </div>
+</body>
+
+</html>
